@@ -1,0 +1,231 @@
+
+ 
+ .navbar-default .navbar-nav>li>a:hover {
+  background-color: #e7e7e7;
+}
+/* 轮播图 */
+ .images-fluid{
+  margin-top:60px;
+ }
+ .carousel-inner img{
+    margin:0 auto;
+  }
+ .carousel-inner .item1{
+  background-color: #223240;
+ }
+
+ .carousel-inner  .item2{
+  background-color: #f2ded5;
+ }
+ .carousel-inner .item3{
+  background-color: #e11a1a;
+ } 
+/* 媒体查询块 */
+ .media-con>.row>div{
+  margin:25px auto;
+ }
+ .media-con>.row div h5{
+  line-height: 25px;
+ }
+ .media-con>.row div p{
+  line-height: 20px;
+  font-size: 14px;
+ }
+ /* 2 */
+.home-con2 h3{
+  text-align:center;
+  color:#0059b2;
+}
+
+ /* 第四部分 */
+ #fluid-media .row{ 
+  text-align: center;
+  vertical-align: middle;
+ }
+
+  #fluid-media .row1{
+  	background-color: #ccc;
+  	height: 280px;
+
+  }
+  #fluid-media .row2{
+ 
+  	height: 240px;
+
+  }
+  
+  
+  #fluid-media #fluid-img1 {
+     width: 200px;
+     height: 220px;
+     margin:30px auto;
+  }
+    #fluid-media #fluid-img2{
+     width: 250px;
+     height: 200px;
+     margin:20px auto;
+     
+  }
+  
+   #fluid-media .col1 .text{
+     height: 260px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+   #fluid-media .row1 #fluid-text{
+  	background-color: #ccc;
+ 
+
+  }
+
+ /* foot */
+ .foot{
+ 	width: 100%;
+ 	background-color: #666666;
+ 	height: 50px;
+ 	text-align: center;
+  color:#fff;
+ }
+ .foot ul li{
+ 	display: inline-block;
+ 	font-size: 12px;
+ }
+
+ /* 列表页 */
+ .all{
+ 	background-color: #eee;
+ }
+.con1{
+	height: 100px;
+	margin-top: 56px;
+	background-color: black;
+	color: #999;
+}
+.con1 .row  .col{
+	height: 100px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list-nav .row{
+  margin-bottom: 10px;
+}
+/* 2 left*/
+@media(max-width: 768px){
+	font-size: 12px;
+}
+.con2{
+	margin-top: 25px;
+}
+.con2>.row>.col1>.row{
+	background-color: #fff;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+ 
+.con2>.row>.col1 p{
+	font-size: 10px;
+}
+
+/* 2 right*/
+.con2>.row>.col2{
+    margin-left: 20px;
+	background-color: #fff;
+}
+.con2>.row>.col2>h4{
+border-left: 4px solid #eee;
+height: 20px;
+line-height: 20px;
+padding-left: 5px;
+}
+.con2>.row>.col2 img{
+	width: 100%;
+	height: 100%;
+}
+.con2>.row>.col2 p{
+	font-size: 12px;
+}
+
+
+/*案例页面*/
+.ex-con{
+  margin-top: 40px;
+}
+
+.ex-con>.row>.col{
+  
+  margin-bottom: 20px;
+  
+}
+
+
+ 
+.ex-con>.row>.col .caption>h4{
+  padding-top:10px;
+  text-align: center;
+  background-color: #fff;
+}
+.ex-con>.row>.col .caption>p{
+  
+  text-align: center;
+  
+} 
+
+
+
+
+/* 详解页面 */
+ 
+  /* Custom Styles */
+    
+    ul.nav-tabs{
+        width: 200px;
+        border-radius: 4px;
+        margin-top: 20px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        background-color: #fff;
+    }
+    .aff-con>.row #aff-right{
+      background-color: #fff;
+      margin-top: 20px;
+    }
+    ul.nav-tabs li{
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+    ul.nav-tabs li:first-child{
+        border-top: none;
+    }
+    ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: #0088cc;
+        border: 1px solid #0088cc;
+    }
+    ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+    }
+    ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+    }
+    ul.nav-tabs.affix{
+        top: 30px; /* Set the top position of pinned element */
+    } 
+
+
+
+
+
+    
+
+
+
+

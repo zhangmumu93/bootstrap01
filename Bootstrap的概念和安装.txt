@@ -1,0 +1,64 @@
+
+	Bootstrap是什么？
+		Twitter 官方推出一套 css 的框架
+		它能快速帮我们快速开发出一套风格绚丽的网站
+		响应式的布局
+		移动设备优先，渐进增强，优雅降级
+		基于jQuery。
+
+	下载和安装
+		1. 通过官方中文文档，在浏览器中下载
+		2. 使用bootstrap 官方cdn链接来安装
+		3. 使用npm install 来安装bootstrap
+			 使用cnpm（淘宝镜像）替换npm ，为npm加速。
+			 执行命令：npm install -g cnpm --registry=https://registry.npm.taoboa.org/
+			 
+	Bootstrap的版本
+		1.x.x 主要流行 Twitter 内部的项目
+		2.x.x 风靡一时
+		3.3.7 beta 公测版（稳定）
+			1. 移动设备优先 比 2好太多
+			2. 提出了兼容IE6/7/8的方案
+			3. 3提供了更多模板和主题
+			4. 提供了更多的组件和样式 比如说 字体图标，模态框
+		4.0 alpha 内测版（更多特性）
+			1. 从Less迁移到Sass
+			2. 支持弹性盒子的布局（CSS3 Flexbox）
+			3. 改进了网格系统
+			4. 废除了Wells 用Cards取代
+			5. 彻底放弃ie6/7/8，使用rem, em来作为单位
+			6. 重写了所有的js插件, 使用ES6的语法来编写
+			7. 使用Markdown编辑文档
+	
+			
+	Bootstrap的优点
+		管理后台（风格高度统一，组件重用度很高）
+		一套完整的基础css 组件
+		丰富的预定样式表
+		一组基于jquery的js 插件集
+		一个非常灵活的响应式栅格系统 并且崇尚移动先行的思想
+		
+
+  	Bootstrap的缺点
+		响应式是双刃剑，对性能有严格要求的情况下，Bootstrap 不太适用，bootstrap 重量， 游戏网站不适用bs
+
+	官方文档： http://v3.bootcss.com/
+
+  	Html 和 css的编码规范 （参考HTML + css 规范）
+
+	bootstrap 有非常好的代码规范 从中可以学到很多前端知识
+	用boostrap 作为前端框架创建的项目 日后的 代码维护也会变得非常容易
+		Code Review
+		减少代码层叠数量和迭代关系
+
+	normalize.css 增强跨浏览器表现的一致性 css重置样式表
+
+
+	Bootstrap的核心概念
+    删格布局系统
+	全局css 样式
+	css 组件
+	js插件
+	
+	
+
